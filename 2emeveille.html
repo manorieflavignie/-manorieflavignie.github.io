@@ -9,11 +9,52 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <title>Veille juridique</title>
+    <title>Prochainement</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="images/mano.png"  class="rounded-circle img-thumbnail">
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+            <img src="images/mano.png"  class="rounded-circle img-thumbnail">
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Photos de moi</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/mano.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/moi.JPG" class="d-block w-100">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <a class="navbar-brand" href="#">Manorie FLAVIGNIE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +71,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="5g.html">5G</a>
-                        <a class="dropdown-item" href="2emeveille.html">Veille juridique</a>
+                        <a class="dropdown-item" href="2emeveille.html">Prochainement</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="carousel.html">Mes images</a>
                     </div>
@@ -39,87 +80,12 @@
         </div>
     </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-3">
-                <img src="images/juridique.png" class="img-fluid img-thumbnail">
-            </div>
-            <div class="col-9">
-                <div class="row">
-                    <h1>Droit et responsabilité sociétale  des entreprises</h1>
-                </div>
-                <div class="row">
-                    <i class="far fa-calendar-alt text-warning"></i> 27/11/2020
-                </div>
-                <div class="row">
-                    <div class="alert alert-warning" role="alert">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit leo erat, at commodo augue suscipit ac.
-                        Aenean rutrum ipsum diam, ut imperdiet nulla lacinia nec. Nullam tincidunt ligula nec lacus consequat consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit leo erat, at commodo augue suscipit ac.
-                        Aenean rutrum ipsum diam, ut imperdiet nulla lacinia nec. Nullam tincidunt ligula nec lacus consequat consequat.
-                        Mauris vehicula malesuada eros, auctor vulputate elit lobortis sed. Pellentesque sed tellus a elit fermentum egestas ac eget lorem.
-                        Sed vitae facilisis eros. Fusce ac mattis arcu. Ut varius pellentesque ligula vitae rhoncus. Aenean ornare porttitor fermentum.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="card">
-                    <h5 class="card-header"> <i class="fas fa-link text-warning"></i> Liens</h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                        <ul>
-                            <li><a href="https://www.lipsum.com/feed/html" class="text-warning">Texte</a></li>
-                            <li><a href="https://economie-gestion.monvr.pf/index.php/2017/06/19/theme-de-veille-juridique-2016-cpge-ect/" class="text-warning">Informations</a></li>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-8">
-                <div class="card">
-                    <h5 class="card-header"> <i class="fas fa-align-left text-warning"></i> Récapitulatif</h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                            Aliquam dignissim erat eu semper mattis. Ut vehicula mauris sit amet tempor bibendum.
-                            Nullam at lorem ac nibh mollis pretium in vitae justo. Phasellus tristique hendrerit nulla nec egestas.
-                            In sodales libero quam, vel vestibulum massa ultrices non. Donec in mollis ligula, sed sodales massa.
-                            Proin vehicula, leo vitae consequat maximus, neque ex cursus eros, non commodo turpis nisi a ex.
-                            Donec in laoreet velit, non fringilla nibh. Donec iaculis libero non eros consequat, non vehicula justo bibendum.
-                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-                            Nam sagittis magna non nisi suscipit, ac interdum risus cursus.
-                            <br/>
-                            <br/>
-                            Donec in orci quam. Aliquam eu malesuada diam. Nunc ac convallis tellus. Etiam sit amet lectus dapibus,
-                            hendrerit lacus eu, pretium sem. Praesent luctus posuere efficitur. Cras ac tortor at purus luctus auctor quis
-                            nec augue. Nam a hendrerit ipsum. Donec ac tincidunt erat, sit amet commodo nisi. Quisque et leo turpis.
-                            Nulla vehicula quam in placerat molestie. Sed lectus leo, interdum feugiat ipsum vel, commodo dignissim tellus.
-                            <br/>
-                            <br/>
-                            Vivamus eu nulla vitae ante finibus porta. Sed facilisis eget sem et efficitur. Aliquam dignissim leo et molestie
-                            volutpat. Nam aliquet massa quis velit dapibus, egestas vulputate lectus fringilla. Integer gravida interdum
-                            hendrerit. Curabitur libero neque, molestie ornare risus id, vulputate luctus tortor. Integer finibus nisi diam,
-                            ac pharetra leo rhoncus sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. In rhoncus, metus vitae
-                            blandit congue, tellus tellus efficitur purus, et faucibus ligula tellus et velit. Sed in pretium ante.
-                            <br/>
-                            <br/>
-                            Proin non convallis dui, a semper ex. Vivamus efficitur, lorem vel eleifend auctor, velit libero vehicula odio,
-                            ac fermentum risus lacus gravida libero. Nam dictum viverra felis at placerat. Praesent vel ipsum vel ipsum
-                            faucibus elementum id in magna. Ut quis felis gravida, sodales enim id, consectetur arcu. Curabitur efficitur
-                            lobortis lacus vel pretium. Nullam ante arcu, accumsan vitae velit eu, tristique vulputate leo. Phasellus a ipsum
-                            aliquet, placerat est vitae, tincidunt urna. Duis sit amet dui leo. Proin suscipit dolor vitae leo sodales
-                            volutpat. In hac habitasse platea dictumst.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="separator"></div>
             <div class="card">
                 <div class="card-header">
-                    <i class="fas fa-check text-warning"></i> Conclusion
+                    <i class="fas fa-tools text-warning"></i> En construction
                 </div>
                 <div class="card-body">
-                    <img src="https://media.giphy.com/media/r1hcMJNIDvdnE2koDY/giphy.gif" class="img-fluid img-thumbnail">                    </div>
+                    <img src="https://media.giphy.com/media/g4nHG6pBP525q/source.gif" class="img-fluid img-thumbnail d-block w-100">                    </div>
             </div>
         </div>
     </div>

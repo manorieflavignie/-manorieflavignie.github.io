@@ -13,7 +13,48 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="images/mano.png"  class="rounded-circle img-thumbnail">
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+            <img src="images/mano.png"  class="rounded-circle img-thumbnail">
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Photos de moi</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/mano.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/moi.JPG" class="d-block w-100">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <a class="navbar-brand" href="#">Manorie FLAVIGNIE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +71,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="5g.html">5G</a>
-                        <a class="dropdown-item" href="2emeveille.html">Veille juridique</a>
+                        <a class="dropdown-item" href="2emeveille.html">Prochainement</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="carousel.html">Mes images</a>
                     </div>
@@ -52,12 +93,10 @@
                 </div>
                 <div class="row">
                     <div class="alert alert-primary" role="alert">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit leo erat, at commodo augue suscipit ac.
-                        Aenean rutrum ipsum diam, ut imperdiet nulla lacinia nec. Nullam tincidunt ligula nec lacus consequat consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit leo erat, at commodo augue suscipit ac.
-                        Aenean rutrum ipsum diam, ut imperdiet nulla lacinia nec. Nullam tincidunt ligula nec lacus consequat consequat.
-                        Mauris vehicula malesuada eros, auctor vulputate elit lobortis sed. Pellentesque sed tellus a elit fermentum egestas ac eget lorem.
-                        Sed vitae facilisis eros. Fusce ac mattis arcu. Ut varius pellentesque ligula vitae rhoncus. Aenean ornare porttitor fermentum.
+                        Les réseaux de prochaine génération (5G) seront lancés sur le marché à l'horizon 2020. Au-delà
+                        de l'amélioration de la vitesse, la 5G devrait faciliter l'émergence d'un immense écosystème IoT
+                        dans lequel les réseaux pourront répondre aux besoins en communication de milliards d'objets
+                        connectés, grâce à un compromis équilibré entre vitesse, latence et coût.
                     </div>
                 </div>
             </div>
@@ -69,7 +108,7 @@
                     <div class="card-body">
                         <p class="card-text">
                             <ul>
-                                <li><a href="https://www.scoop.it/" class="text-primary">Texte</a></li>
+                                <li><a href="https://www.scoop.it/" class="text-primary">Ma veille</a></li>
                                 <li><a href="https://fr.wikipedia.org/wiki/5G" class="text-primary">Wikipédia</a></li>
                             </ul>
                         </p>
@@ -81,50 +120,119 @@
                     <h5 class="card-header"> <i class="fas fa-align-left text-primary"></i> Récapitulatif</h5>
                     <div class="card-body">
                         <p class="card-text">
-                            Aliquam dignissim erat eu semper mattis. Ut vehicula mauris sit amet tempor bibendum.
-                            Nullam at lorem ac nibh mollis pretium in vitae justo. Phasellus tristique hendrerit nulla nec egestas.
-                            In sodales libero quam, vel vestibulum massa ultrices non. Donec in mollis ligula, sed sodales massa.
-                            Proin vehicula, leo vitae consequat maximus, neque ex cursus eros, non commodo turpis nisi a ex.
-                            Donec in laoreet velit, non fringilla nibh. Donec iaculis libero non eros consequat, non vehicula justo bibendum.
-                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-                            Nam sagittis magna non nisi suscipit, ac interdum risus cursus.
+                            La «5G» est la cinquième génération de réseaux mobiles, qui succède aux technologies 2G, 3G
+                            et 4G
+                            <br/>
+                            À son lancement, la 5G va améliorer l’accès aux services proposés par les réseaux 4G en
+                            permettant notamment un meilleur débit et plus de capacité. En particulier, avec la 5G, une
+                            quantité beaucoup plus importante de données peut être échangée sans engorgement des réseaux.
+                            <br/>
+                            Elle favorisera ensuite le développement de services innovants pour les particuliers et pour
+                            les entreprises dans de nombreux domaines.
+                            <br/>
+                            La 5G est elle-même une technologie qui a vocation à évoluer : à l’instar des technologies mobiles
+                            précédentes, ses performances vont progresser (débit, réactivité, capacité à supporter beaucoup
+                            d’usagers en même temps). De nouvelles fonctionnalités pourront être progressivement proposées
+                            par les opérateurs dans les prochaines années au fur et à mesure de l’évolution de la 5G et
+                            des fréquences sur lesquelles elle sera déployée.
                             <br/>
                             <br/>
-                            Donec in orci quam. Aliquam eu malesuada diam. Nunc ac convallis tellus. Etiam sit amet lectus dapibus,
-                            hendrerit lacus eu, pretium sem. Praesent luctus posuere efficitur. Cras ac tortor at purus luctus auctor quis
-                            nec augue. Nam a hendrerit ipsum. Donec ac tincidunt erat, sit amet commodo nisi. Quisque et leo turpis.
-                            Nulla vehicula quam in placerat molestie. Sed lectus leo, interdum feugiat ipsum vel, commodo dignissim tellus.
+                            En introduisant de nombreuses fonctionnalités inédites, la 5G n'est pas seulement une évolution
+                            de la 4G mais bien une véritable technologie de rupture. Son déploiement implique donc l'apparition
+                            de nouveaux cyber-risques, ce qui inquiète, en Europe, à la fois la communauté des télécommunications
+                            et celle de la cybersécurité. Décryptage.
                             <br/>
                             <br/>
-                            Vivamus eu nulla vitae ante finibus porta. Sed facilisis eget sem et efficitur. Aliquam dignissim leo et molestie
-                            volutpat. Nam aliquet massa quis velit dapibus, egestas vulputate lectus fringilla. Integer gravida interdum
-                            hendrerit. Curabitur libero neque, molestie ornare risus id, vulputate luctus tortor. Integer finibus nisi diam,
-                            ac pharetra leo rhoncus sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. In rhoncus, metus vitae
-                            blandit congue, tellus tellus efficitur purus, et faucibus ligula tellus et velit. Sed in pretium ante.
+                            Le vente des bandes de fréquences 5G aux opérateurs mobiles aura lieu le 29 septembre. La vente
+                            de 31 blocs de fréquences de 10 MHz sera réalisée en deux étapes. Tout d’abord, une première
+                            phase d’attribution permettra aux 4 opérateurs d'obtenir chacun un bloc de fréquences de 50 MHz.
+                            <br/>
+                            Un opérateur ne pouvait pas acquérir plus de 100 MHz. C’est Orange qui a remporté la majeure
+                            part des fréquences en jeu avec quatre blocs : au total, le groupe dispose de 90 MHz, contre
+                            80 MHz pour SFR, et 70 MHz chacun pour Bouygues Telecom et Free.
                             <br/>
                             <br/>
-                            Proin non convallis dui, a semper ex. Vivamus efficitur, lorem vel eleifend auctor, velit libero vehicula odio,
-                            ac fermentum risus lacus gravida libero. Nam dictum viverra felis at placerat. Praesent vel ipsum vel ipsum
-                            faucibus elementum id in magna. Ut quis felis gravida, sodales enim id, consectetur arcu. Curabitur efficitur
-                            lobortis lacus vel pretium. Nullam ante arcu, accumsan vitae velit eu, tristique vulputate leo. Phasellus a ipsum
-                            aliquet, placerat est vitae, tincidunt urna. Duis sit amet dui leo. Proin suscipit dolor vitae leo sodales
-                            volutpat. In hac habitasse platea dictumst.
+                            C’est une démarche qui consiste à intégrer les enjeux du développement durable   dans l'ensemble
+                            de ses activités quotidiennes. Elle s'applique à la fois dans le domaine de la consommation,
+                            de la production, du transport ou encore des interactions sociales.
+                            <br/>
+                            L’écoresponsabilité passe par de nouveaux choix de gestion, d’achats, d’organisation du travail,
+                            par des investissements et par la sensibilisation du personnel.
+                            <br/>
+                            De manière plus générale, l’écoresponsabilité invite l’ensemble des citoyens, des entreprises
+                            et des collectivités à réfléchir aux conséquences de leurs actions sur l’environnement.
+                            Elle les incite à modifier leurs comportements pour y inclure les enjeux du développement durable
+                            <br/>
+                            <br/>
+                            En 2011, l'OMS a qualifié les ondes électromagnétiques comme peut-être cancérogènes pour l'homme.
+                            Mais, la recherche n'a pas pu établir de lien de cause à effet. En France, des études sur la 5G
+                            sont en cours, mais elles semblent exclure un quelconque danger de la 5G sur la santé.
+                            Au moins à court terme.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="separator"></div>
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-check text-primary"></i> Conclusion
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-photo-video text-primary"></i> Mon diaporama
+                        </div>
+                        <div class="card-body">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/P1.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P2.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P3.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P4.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P5.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P6.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P7.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/P8.png" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://media.giphy.com/media/26AHC0kdj8IeLkmBy/source.gif" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <img src="https://media.giphy.com/media/mGPjrn9F6h8RKUIn6J/giphy.gif" class="img-fluid img-thumbnail">                    </div>
                 </div>
         </div>
-
-
-
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
