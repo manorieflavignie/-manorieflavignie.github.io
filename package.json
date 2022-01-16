@@ -2,9 +2,9 @@
   "name": "manorie-flavignie.github.io",
   "version": "1.0.0",
   "description": "Mon CV sur GitHub",
-  "main": "index.html",
+  "main": "templates/cv.html",
   "scripts": {
-    "build": "node-sass --include-path scss/scss/custom.scss  --output dist",
+    "build": "node_modules/.bin/node-sass --include-path scss/scss/custom.scss  --output dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,11 @@
   "homepage": "https://github.com/manorie-flavignie/manorie-flavignie.github.io#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "jquery": "^3.6.0",
+    "jquery-animated-headlines": "^1.0.0",
     "node-sass": "^5.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.7.0"
+  }
 }
