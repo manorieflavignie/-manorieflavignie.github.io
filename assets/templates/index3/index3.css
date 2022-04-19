@@ -1,0 +1,8 @@
+@import "scss/custom.scss";
+
+.coucou{
+    font-family: meno-banner, serif;
+    font-style: normal;
+    font-weight: 900;
+    color: var(--primary);
+}
