@@ -4,12 +4,6 @@
     }
 }
 
-@media (min-width: 768px) {
-    .mb-title{
-        margin-bottom: 3rem!important;
-    }
-}
-
 @media (max-width: 767px) {
     .link-mb{
         margin-bottom: 3rem!important;

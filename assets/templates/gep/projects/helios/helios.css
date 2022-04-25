@@ -3,3 +3,15 @@
         width: 162px;
     }
 }
+
+@media (min-width: 1045px) {
+    .carousel-width {
+        width: 50rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .context-mb{
+        margin-bottom: 3rem!important;
+    }
+}

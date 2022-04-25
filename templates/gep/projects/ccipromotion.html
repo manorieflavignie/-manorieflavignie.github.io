@@ -4,17 +4,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../../../assets/templates/gep/projects/ccipromotion/ccipromotion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="icon" href="../../../images/favicon.png">
-    <title>Supermarché - mf</title>
+    <title>CCI - PROMO - mf</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+    <button id="btn-mano" type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
         <img src="../../../images/mano.png" class="rounded-circle img-thumbnail w-50">
     </button>
 
@@ -80,7 +81,8 @@
                 <a class="nav-link" href="../../nablaware/nablaware.html">Mon entreprise</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
                     Mes veilles
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -89,7 +91,8 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
                     Réalisations professionnelles
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -102,9 +105,9 @@
 </nav>
 <div class="container">
     <div class="m-5">
-        <h1 class="d-flex justify-content-center">Supermarché</h1>
+        <h1 class="d-flex justify-content-center">CCI - PROMO</h1>
     </div>
-    <div class="card mx-auto" style="width: 50rem;">
+    <div class="card mx-auto mb-5 carousel-width">
         <div id="carousel2" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel2" data-slide-to="0" class="active"></li>
@@ -116,23 +119,25 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../../images/supermarche/bdd.png" class="d-block w-100">
+                    <img src="../../../images/ccipromotion/bdd.png" class="d-block w-100">
+                </div>
+                <!--
+                <div class="carousel-item">
+                    <img src="../../../images/ccipromotion/1.png" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../../images/supermarche/1.png" class="d-block w-100">
+                    <img src="../../../images/ccipromotion/2.png" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../../images/supermarche/2.png" class="d-block w-100">
+                    <img src="../../../images/ccipromotion/3.png" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../../images/supermarche/3.png" class="d-block w-100">
+                    <img src="../../../images/ccipromotion/4.png" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="../../../images/supermarche/4.png" class="d-block w-100">
+                    <img src="../../../images/ccipromotion/5.png" class="d-block w-100">
                 </div>
-                <div class="carousel-item">
-                    <img src="../../../images/supermarche/5.png" class="d-block w-100">
-                </div>
+                -->
             </div>
             <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -145,40 +150,99 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-6">
-            <div class="card">
+    <div class="row mb-5">
+        <div class="col-12 col-lg-6">
+            <div class="card mb-5">
                 <div class="card-header">
                     Contexte du projet
                 </div>
 
                 <div class="card-body">
-                    Le directeur d’une chaine de supermarché a décidé d’informatiser la gestion de chacun de ses
-                    magasins.
-                    Chaque magasin vend 3 types de produit : périssables, multimédias et culturels.
+                    <div class="mb-2">
+                        J’ai travaillé en tant que technicien développeur junior pour l’ESN Badènia Tech qui vient de
+                        remporter le marché de développement d’une application mobile android qui doit participer à la
+                        promotion de la chambre de commerce et de l’industrie, particulièrement, les formations
+                        proposées.
+                    </div>
+                    <div>
+                        J’ai dû faire évoluer l’application existante qui est basique et comporte une seule IHM, la page
+                        d’accueil.
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
             <div class="card">
                 <div class="card-header">
                     Expression de besoin
                 </div>
 
                 <div class="card-body">
-                    <div>
-                        Créer le logiciel idéal pour les magasins du directeur.
+                    <div class="mb-2">
+                        <div style="font-weight: bold">
+                            Besoin 1 :
+                        </div>
+
+                        Lister les formations proposées par la CCI
                     </div>
-                    <div>
-                        Le logiciel doit :
+                    <div class="mb-2">
+                        <div style="font-weight: bold">
+                            Besoin 2 :
+                        </div>
+
+                        Après la sélection d’une formation dans la liste, l’application doit afficher une page la
+                        décrivant.
+
+                        La page doit afficher :
                         <ul>
                             <li>
-                                Gérer les produits disponibles : visualisation liste/ajout/suppression de produit                        </li>
+                                L’intitulé de la formation
+                            </li>
                             <li>
-                                Gérer la vente du supermarché : éditer le ticket de caisse/bilan consolidé
+                                La date de début
+                            </li>
+                            <li>
+                                La durée
+                            </li>
+                            <li>
+                                L’image de présentation
+                            </li>
+                            <li>
+                                Le lien vers une page internet décrivant la formation
+                            </li>
+                            <li>
+                                Le texte de la description de la formation
                             </li>
                         </ul>
+                    </div>
+                    <div class="mb-2">
+                        <div style="font-weight: bold">
+                            Besoin 3 :
+                        </div>
+
+                        La CCI souhaite pourvoir recevoir des messages des utilisateurs afin de répondre aux demandes
+                        d’information et de pouvoir évaluer l’impact de l’application.
+
+                        Pour ce faire vous devez créer un formulaire permettant à l’utilisateur de renseigner son nom,
+                        son prénom, son mail et de saisir un message.
+
+                        Les données d’entrées doivent être contrôlées. Envoyer le message à la CCI via l’api rest
+                        exposée.
+                    </div>
+                    <div class="mb-2">
+                        <div style="font-weight: bold">
+                            Besoin 4 :
+                        </div>
+
+                        Gestion des formations favorites de l’utilisateur.
+
+                        L’utilisateur doit pouvoir, sur la page « détail d’une formation », ajouter/supprimer la
+                        formation courantes de la liste des favorites. L’états de la liste des formations favorites doit
+                        être maintenu entre plusieurs exécution de l’application.
+
+                        Ajouter une entrée dans le menu, « favoris » permet d’afficher la liste des formations favorites
+                        et d’accéder au détail d’une formation, comme précédemment.
                     </div>
                 </div>
             </div>
@@ -186,24 +250,37 @@
     </div>
 
 
-    <div class="card">
+    <div class="card mb-5">
         <div class="card-header">
             Activités réalisées et compétences acquises
         </div>
 
         <div class="card-body">
-            Au sein de ce projet, j'ai réalisé le logiciel en Java, à l'aide de JPA j'ai pu gérer la base de données.
-            Ce projet m'a permis de réfléchir à l'intelligence du code et d'acquérir des compétences en JAVA.
+            Pour concevoir au mieux l’application mobile, j’ai travaillé seule. J’ai ajouté dans le menu déroulant les
+            items : Les formations, Les favoris et Nous contacter.
+            <ul>
+                <li>
+                    Page qui liste les formations, après sélection d’une formation, l’utilisateur est redirigé sur une
+                    page descriptive de cette dernière, l’utilisateur a la possibilité de l’ajouter à ses favoris.
+                </li>
+                <li>
+                    Page qui liste les formations favorites de l’utilisateur, après sélection d’une formation,
+                    l’utilisateur est redirigé sur une page descriptive de cette dernière.
+                </li>
+                <li>
+                    Page avec un formulaire de contact.
+                </li>
+            </ul>
         </div>
     </div>
 
-    <div class="card">
+    <div class="card mb-5">
         <div class="card-header">
             Outils :
         </div>
 
         <div class="card-body">
-            Eclipse, IntelliJ IDEA, MAMP, phpmyadmin.
+            Eclipse, Android Studio, MAMP, phpmyadmin, VirtualBox, Postman.
         </div>
     </div>
 
@@ -218,5 +295,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
+<script src="../../../assets/templates/gep/projects/ccipromotion/ccipromotion.js"></script>
 </body>
 </html>
