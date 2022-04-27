@@ -1,0 +1,11 @@
+@media (min-width: 992px) and (max-width: 1045px) {
+    #btn-mano {
+        width: 162px;
+    }
+}
+
+@media (min-width: 1045px) {
+    .carousel-width {
+        width: 50rem;
+    }
+}
