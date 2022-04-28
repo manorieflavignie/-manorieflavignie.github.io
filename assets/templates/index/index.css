@@ -1,3 +1,7 @@
+.hght-vh{
+    min-height: 50vh;
+}
+
 .btn-mano{
     width: 216px;
     height: 109px;
