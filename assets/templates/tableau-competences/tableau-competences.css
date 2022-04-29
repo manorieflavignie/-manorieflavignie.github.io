@@ -1,0 +1,50 @@
+.btn-table {
+    background-color: rgba(224, 158, 45, 0.6) !important;
+    color: white !important;
+}
+
+.size-img {
+    width: 60px;
+    height: 60px !important;
+}
+
+.size-triiibu {
+    width: 45px;
+    height: 45px;
+}
+
+.drp-menu-triiibu {
+    width: 78px !important;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+    text-align: center !important;
+    top: 15px !important;
+}
+
+.triiibu-desktop {
+    width: 28px !important;
+    height: 26px !important;
+    border: none !important;
+    background-color: #63AA99 !important;
+    color: white !important;
+}
+
+.triiibu-mobile {
+    width: 26px !important;
+    height: 26px !important;
+    border: none !important;
+    background-color: #ABB97A !important;
+    color: white !important;
+}
+
+.btn-triiibu:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
